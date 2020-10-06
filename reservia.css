@@ -1,18 +1,18 @@
 @font-face{
     font-family: "Raleway";
-    src: url(Raleway/static/Raleway-medium.ttf);
+    src: url(Raleway/static/Raleway-Medium.ttf);
 }
 @font-face{
     font-family: "Raleway-light";
-    src: url(police_reservia/Raleway-light.ttf);
+    src: url(Raleway/static/Raleway-Light.ttf);
 }
 @font-face{
     font-family: "Raleway-semibold";
-    src: url(police_reservia/Raleway-semibold.ttf);
+    src: url(Raleway/static/Raleway-SemiBold.ttf);
 }
 @font-face{
     font-family: "Raleway-bold";
-    src: url(police_reservia/Raleway-bold.ttf);
+    src: url(Raleway/static/Raleway-Bold.ttf);
 }
 
 
