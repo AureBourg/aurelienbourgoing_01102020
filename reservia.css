@@ -106,20 +106,34 @@ header img{
     margin-bottom: 15px;
 }
 
-#barre_recherche img{
+.position{
     width: auto;
     height: 14px;
     background-color: #f2f2f2;
     padding:12px;
     border-radius:10px 0px 0px 10px ;
 }
+.fa-search{
+    background-color: #0065FC;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 13px;
+    font-family: "Raleway-semibold";
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border: #0065FC solid;
+    visibility: hidden;
+    position: relative;
+    right: 101px;
+
+}
 #champs_recherche{
     border: solid 1px #f2f2f2;
-    padding-left: 10px;
+    padding: 0px 10px 0px 10px;
     height: 38px;
-    max-width: 200px;
+    max-width: 250px;
     font-family: "Raleway-semibold";
-    font-size: 14px;
+    font-size: 13px;
     color: black;
 }
 #bouton_recherche{
@@ -150,132 +164,43 @@ header img{
     align-items: center;
     max-width: 830px;
 }
-
+.filtres{
+    margin: 15px 30px 15px 0px;
+}
 #eco{
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
+    padding: 0px 15px 0px 0px;
 }
-#eco img{
-    height: 17px;
-    width: auto;
+#filtres_recherche i{
     background-color: #DEEBFF;
-    padding: 13px;
-    border-radius: 20px;
+    color: #0065FC;
+    padding: 15px;
+    border-radius: 25px;
     position: relative;
-    left: 35px;
+    right: 10px;
 }
-#eco a{
-    display: flex;
-    display: inline-block;
+#filtres_recherche a{
     text-decoration: none;
     color: black;
-    border: solid 2px #f2f2f2;
+    border: solid 2px #f4f4f4;
     border-radius: 20px;
-    padding: 0px 15px 0px 45px;
-    margin-top: 5px;
-    margin-bottom:5px;
+    margin: 0px 20px 10px 20px;
 }
-#eco a:hover{
+#filtres_recherche a:hover{
     background-color: #0065FC;
     color: white;
     border:solid 2px #0065FC;
     box-shadow: 1px 1px 5px grey;
 }
 #familial{
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
+    padding: 0px 15px 0px 0px;
 }
-#familial img{
-    height: 17px;
-    width: auto;
-    background-color: #DEEBFF;
-    padding: 13px;
-    border-radius: 20px;
-    position: relative;
-    left: 35px;
-}
-#familial a{
-    display: flex;
-    display: inline-block;
-    text-decoration: none;
-    color: black;
-    border: solid 2px #f2f2f2;
-    border-radius: 20px;
-    padding: 0px 15px 0px 45px;
-    margin-top: 5px;
-    margin-bottom:5px;
-}
-#familial a:hover{
-    background-color: #0065FC;
-    color: white;
-    border: #0065FC solid 2px;
-    box-shadow: 1px 1px 5px grey;
-}
+
 #romantique{
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
+    padding: 0px 15px 0px 0px;
 }
-#romantique img{
-    height: 17px;
-    width: auto;
-    background-color: #DEEBFF;
-    padding: 13px;
-    border-radius: 20px;
-    position: relative;
-    left: 35px;
-}
-#romantique a{
-    display: flex;
-    display: inline-block;
-    text-decoration: none;
-    color: black;
-    border: solid 2px #f2f2f2;
-    border-radius: 20px;
-    padding: 0px 15px 0px 45px;
-    margin-top: 5px;
-    margin-bottom:5px;
-}
-#romantique a:hover{
-    background-color: #0065FC;
-    color: white;
-    border: solid 2px #0065FC;
-    box-shadow: 1px 1px 5px grey;
-}
+
 #animaux{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border-radius: 10px;
-}
-#animaux img{
-    height: 17px;
-    width: auto;
-    background-color: #DEEBFF;
-    padding: 13px;
-    border-radius: 20px;
-    position: relative;
-    left: 35px;
-}
-#animaux a{
-    display: flex;
-    display: inline-block;
-    text-decoration: none;
-    color: black;
-    border: solid 2px #f2f2f2;
-    border-radius: 20px;
-    padding: 0px 15px 0px 45px;
-    min-width: 115px;
-    margin-top: 5px;
-    margin-bottom:5px;
-}
-#animaux a:hover{
-    background-color: #0065FC;
-    color: white;
-    border: #0065FC solid 2px;
-    box-shadow: 1px 1px 5px grey;
+    padding: 0px 15px 0px 0px;
 }
 
 #info_recherche{
@@ -327,9 +252,9 @@ header img{
     position: relative;
     background-color: #f2f2f2;
     width: 70%;
-    min-width: 250px;
+    min-width: 305px;
     border-radius: 20px;
-    margin-right: 10px;
+    margin-right: 20px;
     padding-bottom: 80px;
     }
     
@@ -351,12 +276,12 @@ header img{
  
 #auberge_la_cannebiere{
     background-image: url(images_reservia/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
-    background-size: contain;
-    background-position-y: -15px;
+    background-size: cover;
+    background-position-y: -25px;
     border-radius: 15px;
     border: white solid 3px;
-    height: 140px;
-    width: 180px;
+    height: 160px;
+    width: 250px;
     box-shadow: 1px 2px 5px #cccccc;
 
 }
@@ -365,20 +290,20 @@ header img{
     font-size: 10px;
     padding: 7px 8px 7px 8px;
     height: 45px;
-    width: 165px;
+    width: 235px;
     background-color: white;
     border-radius: 0px 0px 5px 5px;
-    margin-top: 81px;
+    margin-top: 101px;
 
 }
 #hotel_du_port{
     background-image: url(images_reservia/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
-    background-size: contain;
-    background-position-y: -25px;
+    background-size: cover;
+    background-position-y: -35px;
     border-radius: 15px;
     border: white solid 3px;
-    height: 140px;
-    width: 180px;
+    height: 160px;
+    width: 250px;
     box-shadow: 1px 2px 5px #cccccc;
 
 }
@@ -387,20 +312,20 @@ header img{
     font-size: 10px;
     padding: 7px 8px 7px 8px;
     height: 45px;
-    width: 165px;
+    width: 235px;
     background-color: white;
     border-radius: 0px 0px 5px 5px;
-    margin-top: 81px;
+    margin-top: 101px;
 
 }
 #hotel_les_mouettes{
     background-image: url(images_reservia/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg);
-    background-size: contain;
-    background-position-y: -25px;
+    background-size: cover;
+    background-position-y: -45px;
     border-radius: 15px;
     border: white solid 3px;
-    height: 140px;
-    width: 180px;
+    height: 160px;
+    width: 250px;
     box-shadow: 1px 2px 5px #cccccc;
 }
 #hotel_les_mouettes p{
@@ -408,19 +333,19 @@ header img{
     font-size: 10px;
     padding: 7px 8px 7px 8px;
     height: 45px;
-    width: 165px;
+    width: 235px;
     background-color: white;
     border-radius: 0px 0px 5px 5px;
-    margin-top: 81px;
+    margin-top: 101px;
 }
 #hotel_de_la_mer{
     background-image: url(images_reservia/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
-    background-size: contain;
-    background-position-y: -30px;
+    background-size: cover;
+    background-position-y: -80px;
     border-radius: 15px;
     border: white solid 3px;
-    height: 140px;
-    width: 180px;
+    height: 160px;
+    width: 250px;
     box-shadow: 1px 2px 5px #cccccc;
 }
 
@@ -429,19 +354,19 @@ header img{
     font-size: 10px;
     padding: 7px 8px 7px 8px;
     height: 45px;
-    width: 165px;
+    width: 235px;
     background-color: white;
     border-radius: 0px 0px 5px 5px;
-    margin-top: 81px;
+    margin-top: 101px;
 }
 #auberge_le_panier{
     background-image: url(images_reservia/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
-    background-size: contain;
-    background-position-y: -25px;
+    background-size: cover;
+    background-position-y: -35px;
     border-radius: 15px;
     border: white solid 3px;
-    height: 140px;
-    width: 180px;
+    height: 160px;
+    width: 250px;
     box-shadow: 1px 2px 5px #cccccc;
 }
 #auberge_le_panier p{
@@ -449,19 +374,19 @@ header img{
     font-size: 10px;
     padding: 7px 8px 7px 8px;
     height: 45px;
-    width: 165px;
+    width: 235px;
     background-color: white;
     border-radius: 0px 0px 5px 5px;
-    margin-top: 81px;
+    margin-top: 101px;
 }
 #hotel_chez_amina{
     background-image: url(images_reservia/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
     background-size: cover;
-    background-position-y: -100px;
+    background-position-y: -140px;
     border-radius: 15px;
     border: white solid 3px;
-    height: 140px;
-    width: 180px;
+    height: 160px;
+    width: 250px;
     box-shadow: 1px 2px 5px #cccccc;
     }
 #hotel_chez_amina p{
@@ -469,10 +394,10 @@ header img{
     font-size: 10px;
     padding: 7px 8px 7px 8px;
     height: 45px;
-    width: 165px;
+    width: 235px;
     background-color: white;
     border-radius: 0px 0px 5px 5px;
-    margin-top: 81px;
+    margin-top: 101px;
     }
 
 
@@ -483,12 +408,12 @@ header img{
 
 
 aside{
-    width: 35%;
+    width: 40%;
     border-radius: 10px;
-    margin-left: 20px;
+    margin-left: 30px;
     display: flex;
     flex-direction: column;
-    min-width: 296px;
+    min-width: 316px;
 
 }
 
@@ -498,17 +423,12 @@ aside{
     justify-content: space-between;
     align-items: center;
     background-color: #f2f2f2;
-    padding: 20px ;
+    padding: 30px ;
     border-radius: 20px 20px 0px 0px;
 
 }
-#titre_populaires img{
-    width: 16px;
-    height: 12px;
-}
-
 #photos_populaires{
-    padding: 20px ;
+    padding: 30px ;
     background-color: #f2f2f2;
     border-radius: 0px 0px 20px 20px;
 
@@ -523,7 +443,7 @@ aside{
 }
 
 #photos_populaires .etoiles{
-    height: 11px;
+    height: 13px;
     width: auto;
     position: absolute;
     bottom: 10px;
@@ -536,8 +456,8 @@ aside{
     top: 7px;
 }
 #hotel_1_img{
-    min-width: 110px;
-    min-height: 110px;
+    min-width: 120px;
+    min-height: 120px;
     background-image: url(images_reservia/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
     background-size: cover;
     border-radius: 20px 0px 0px 20px;
@@ -550,7 +470,7 @@ aside{
     font-family: "Raleway-bold";
     font-size: 12px;
     padding: 0px 12px 0px 12px;
-    height: 110px;
+    height: 130px;
     width: 3000px;
     min-width: 100px;
     border-radius: 0px 20px 20px 0px;
@@ -560,8 +480,8 @@ aside{
 }
 
 #hotel_2_img{
-    min-width: 110px;
-    min-height: 110px;
+    min-width: 120px;
+    min-height: 120px;
     background-image: url(images_reservia/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg);
     background-size: cover;
     background-position-x: -15px;
@@ -576,16 +496,16 @@ aside{
     font-family: "Raleway-bold";
     font-size: 12px;
     padding: 0px 12px 0px 12px;
-    height: 110px;
-    width: 200px;
+    height: 130px;
+    width: 3000px;
     min-width: 100px;
     border-radius: 0px 20px 20px 0px;
     border: solid 4px white;
     box-shadow: 2px 2px 2px #cccccc;
 }
 #hotel_3_img{
-    min-width: 110px;
-    min-height: 110px;
+    min-width: 120px;
+    min-height: 120px;
     background-image: url(images_reservia/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
     background-size: cover;
     background-position-y: -30px;
@@ -600,8 +520,8 @@ aside{
     font-family: "Raleway-bold";
     font-size: 12px;
     padding: 0px 12px 0px 12px;
-    height: 110px;
-    width: 200px;
+    height: 130px;
+    width: 3000px;
     min-width: 100px;
     border-radius: 0px 20px 20px 0px;
     border: solid 4px white;
@@ -841,19 +761,26 @@ footer h2{
         padding: 0px 35px 0px 35px;
     }
     #barre_recherche{
-        justify-content: center;
         width: 100%;
+        margin-left: 30px;
     }
-    #barre_recherche img{
-        height: 20px;
-        padding: 10px;
+    #barre_recherche i{
+        padding: 13px;
     }
     #champs_recherche{
         height: 40px;
-        min-width: 100px;
+        min-width: 50px;
+        max-width: 150px;
     }
     #bouton_recherche{
         height: 40px;
+        visibility: hidden;
+    }
+    .fa-search{
+        visibility: visible;
+        position: relative;
+        right: 101px;
+        height: 11px;
     }
     .filtres{
         margin-right: 200px;
@@ -961,6 +888,7 @@ footer h2{
         margin: auto;
     }
     #auberge_la_cannebiere{
+        background-position: 50% 100%;
         background-size: cover;
         width: 100%;
         height: 180px;
@@ -970,12 +898,12 @@ footer h2{
     #auberge_la_cannebiere p{
         width: 96%;
         position: relative;
-        top: 41px;
+        top: 21px;
         border-radius: 0px 0px 10px 10px;
     }
     #hotel_du_port{
+        background-position: center bottom;
         background-size: cover;
-        background-position-y: -60px;
         width: 100%;
         height: 180px;
         margin-bottom: 20px;
@@ -984,12 +912,12 @@ footer h2{
     #hotel_du_port p{
         width: 96%;
         position: relative;
-        top: 41px;
+        top: 21px;
         border-radius: 0px 0px 10px 10px;
     }
     #hotel_les_mouettes{
+        background-position: center bottom;
         background-size: cover;
-        background-position-y: -80px;
         width: 100%;
         height: 180px;
         margin-bottom: 20px;
@@ -998,12 +926,12 @@ footer h2{
     #hotel_les_mouettes p{
         width: 96%;
         position: relative;
-        top: 41px;
+        top: 21px;
         border-radius: 0px 0px 10px 10px;
     }
     #hotel_de_la_mer{
+        background-position: 50% 100%;
         background-size: cover;
-        background-position-y: -130px;
         width: 100%;
         height: 180px;
         margin-bottom: 20px;
@@ -1012,12 +940,12 @@ footer h2{
     #hotel_de_la_mer p{
         width: 96%;
         position: relative;
-        top: 41px;
+        top: 21px;
         border-radius: 0px 0px 10px 10px;
     }
     #auberge_le_panier{
+        background-position: center bottom;
         background-size: cover;
-        background-position-y: -60px;
         width: 100%;
         height: 180px;
         margin-bottom: 20px;
@@ -1026,12 +954,12 @@ footer h2{
     #auberge_le_panier p{
         width: 96%;
         position: relative;
-        top: 41px;
+        top: 21px;
         border-radius: 0px 0px 10px 10px;
     }
     #hotel_chez_amina{
+        background-position: center -250px;
         background-size: cover;
-        background-position-y: -210px;
         width: 100%;
         height: 180px;
         margin-bottom: 20px;
@@ -1040,7 +968,7 @@ footer h2{
     #hotel_chez_amina p{
         width: 96%;
         position: relative;
-        top: 41px;
+        top: 21px;
         border-radius: 0px 0px 10px 10px;
     }
     #hebergement h3 a{
@@ -1187,7 +1115,7 @@ footer h2{
 
 
 
-@media all and (min-width:481px) and (max-width: 614px){
+@media all and (min-width:481px) and (max-width: 724px){
     #menu a{
         display: flex;
         padding-right: 13px;
@@ -1266,7 +1194,112 @@ footer h2{
     
 
     #hebergement{
+        width: 90%;
+        margin: auto;
+        background-color: white;
+    }
+    #titre_hebergement{
+        padding: 10px 20px 10px 0px;
+    }
+
+    #photos_hebergement{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        padding: 0px 20px 0px 20px;
+    }
+    #photos_hebergement a{
         width: 100%;
+        margin: auto;
+    }
+    #auberge_la_cannebiere{
+        background-size: cover;
+        width: 100%;
+        height: 180px;
+        margin-bottom: 20px;
+        border: white solid 5px;
+    }
+    #auberge_la_cannebiere p{
+        width: 97%;
+        position: relative;
+        top: 21px;
+        border-radius: 0px 0px 10px 10px;
+    }
+    #hotel_du_port{
+        background-size: cover;
+        background-position-y: -60px;
+        width: 100%;
+        height: 180px;
+        margin-bottom: 20px;
+        border: white solid 5px;
+    }
+    #hotel_du_port p{
+        width: 97%;
+        position: relative;
+        top: 21px;
+        border-radius: 0px 0px 10px 10px;
+    }
+    #hotel_les_mouettes{
+        background-size: cover;
+        background-position-y: -80px;
+        width: 100%;
+        height: 180px;
+        margin-bottom: 20px;
+        border: white solid 5px;
+    }
+    #hotel_les_mouettes p{
+        width: 97%;
+        position: relative;
+        top: 21px;
+        border-radius: 0px 0px 10px 10px;
+    }
+    #hotel_de_la_mer{
+        background-size: cover;
+        background-position-y: -130px;
+        width: 100%;
+        height: 180px;
+        margin-bottom: 20px;
+        border: white solid 5px;
+    }
+    #hotel_de_la_mer p{
+        width: 97%;
+        position: relative;
+        top: 21px;
+        border-radius: 0px 0px 10px 10px;
+    }
+    #auberge_le_panier{
+        background-size: cover;
+        background-position-y: -60px;
+        width: 100%;
+        height: 180px;
+        margin-bottom: 20px;
+        border: white solid 5px;
+    }
+    #auberge_le_panier p{
+        width: 97%;
+        position: relative;
+        top: 21px;
+        border-radius: 0px 0px 10px 10px;
+    }
+    #hotel_chez_amina{
+        background-size: cover;
+        background-position-y: -210px;
+        width: 100%;
+        height: 180px;
+        margin-bottom: 20px;
+        border: white solid 5px;
+    }
+    #hotel_chez_amina p{
+        width: 97%;
+        position: relative;
+        top: 21px;
+        border-radius: 0px 0px 10px 10px;
+    }
+    #hebergement h3 a{
+        padding: 0px;
+        font-size: 14px;
+        margin: 0px;
     }
 
 
@@ -1395,7 +1428,7 @@ footer h2{
 
 
 
-@media all and (min-width:615px) and (max-width: 662px){
+@media all and (min-width:725px) and (max-width: 662px){
     #menu a{
         display: flex;
         padding-right: 13px;
