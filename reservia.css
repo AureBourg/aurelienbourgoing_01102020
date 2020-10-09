@@ -209,13 +209,9 @@ header img{
     padding-left: 10px;
 }
 
-#info_recherche img{
-    width: 10px;
-    height: auto;
-    border: solid 1px #f2f2f2;
-    padding: 3px;
-    border-radius: 20px;
-    margin-right: 8px;
+#info_recherche i{
+    color: #0065FC;
+    margin-right: 15px;
 }
 
 
@@ -231,9 +227,9 @@ header img{
     margin-bottom: 20px;
 }
 
-#hebergement .etoiles{
-    height: 10px;
-    width: auto;
+#photos_hebergement i{
+    font-size: 10px;
+    color: #0065FC;
 }
 #hebergement span{
     font-family: "Raleway-light";
@@ -246,7 +242,7 @@ header img{
 }
 
 #titre_hebergement{
-    padding: 20px 0px 0px 20px;
+    padding: 30px 30px 60px 30px;
 }
 #hebergement{
     position: relative;
@@ -263,8 +259,8 @@ header img{
     font-family: "Raleway-semibold";
     text-decoration: none;
     color: black;
-    margin: 19px;
     line-height: 16px;
+    margin: 15px;
 
 }
 #photos_hebergement {
@@ -273,9 +269,12 @@ header img{
     flex-wrap: wrap;
     justify-content: center;
 }
+#photos_hebergement .etoile_last{
+    color: #cccccc;
+}
  
 #auberge_la_cannebiere{
-    background-image: url(images_reservia/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+    background-image: url(images_reservia/hebergements/3_medium_/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
     background-size: cover;
     background-position-y: -25px;
     border-radius: 15px;
@@ -297,7 +296,7 @@ header img{
 
 }
 #hotel_du_port{
-    background-image: url(images_reservia/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+    background-image: url(images_reservia/hebergements/3_medium_/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
     background-size: cover;
     background-position-y: -35px;
     border-radius: 15px;
@@ -319,7 +318,7 @@ header img{
 
 }
 #hotel_les_mouettes{
-    background-image: url(images_reservia/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+    background-image: url(images_reservia/hebergements/3_medium_/reisetopia-B8WIgxA_PFU-unsplash.jpg);
     background-size: cover;
     background-position-y: -45px;
     border-radius: 15px;
@@ -339,7 +338,7 @@ header img{
     margin-top: 101px;
 }
 #hotel_de_la_mer{
-    background-image: url(images_reservia/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+    background-image: url(images_reservia/hebergements/3_medium_/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
     background-size: cover;
     background-position-y: -80px;
     border-radius: 15px;
@@ -360,7 +359,7 @@ header img{
     margin-top: 101px;
 }
 #auberge_le_panier{
-    background-image: url(images_reservia/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+    background-image: url(images_reservia/hebergements/3_medium_/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
     background-size: cover;
     background-position-y: -35px;
     border-radius: 15px;
@@ -380,7 +379,7 @@ header img{
     margin-top: 101px;
 }
 #hotel_chez_amina{
-    background-image: url(images_reservia/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+    background-image: url(images_reservia/hebergements/3_medium_/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
     background-size: cover;
     background-position-y: -140px;
     border-radius: 15px;
@@ -443,10 +442,14 @@ aside{
 }
 
 #photos_populaires .etoiles{
+    color: #0065FC;
     height: 13px;
     width: auto;
     position: absolute;
     bottom: 10px;
+}
+#photos_populaires .etoile_last{
+    color: #cccccc;
 }
 
 #photos_populaires span{
@@ -458,7 +461,7 @@ aside{
 #hotel_1_img{
     min-width: 120px;
     min-height: 120px;
-    background-image: url(images_reservia/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+    background-image: url(images_reservia/hebergements/3_medium_/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
     background-size: cover;
     border-radius: 20px 0px 0px 20px;
     border: solid 4px white;
@@ -482,7 +485,7 @@ aside{
 #hotel_2_img{
     min-width: 120px;
     min-height: 120px;
-    background-image: url(images_reservia/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg);
+    background-image: url(images_reservia/hebergements/3_medium_/aw-creative-VGs8z60yT2c-unsplash.jpg);
     background-size: cover;
     background-position-x: -15px;
     border-radius: 20px 0px 0px 20px;
@@ -506,7 +509,7 @@ aside{
 #hotel_3_img{
     min-width: 120px;
     min-height: 120px;
-    background-image: url(images_reservia/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+    background-image: url(images_reservia/hebergements/3_medium_/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
     background-size: cover;
     background-position-y: -30px;
     border-radius: 20px 0px 0px 20px;
@@ -886,13 +889,13 @@ footer h2{
     #photos_hebergement a{
         width: 100%;
         margin: auto;
+        margin-bottom: 20px;
     }
     #auberge_la_cannebiere{
         background-position: 50% 100%;
         background-size: cover;
         width: 100%;
         height: 180px;
-        margin-bottom: 20px;
         border: white solid 5px;
     }
     #auberge_la_cannebiere p{
@@ -906,7 +909,6 @@ footer h2{
         background-size: cover;
         width: 100%;
         height: 180px;
-        margin-bottom: 20px;
         border: white solid 5px;
     }
     #hotel_du_port p{
@@ -920,7 +922,6 @@ footer h2{
         background-size: cover;
         width: 100%;
         height: 180px;
-        margin-bottom: 20px;
         border: white solid 5px;
     }
     #hotel_les_mouettes p{
@@ -934,7 +935,6 @@ footer h2{
         background-size: cover;
         width: 100%;
         height: 180px;
-        margin-bottom: 20px;
         border: white solid 5px;
     }
     #hotel_de_la_mer p{
@@ -948,7 +948,6 @@ footer h2{
         background-size: cover;
         width: 100%;
         height: 180px;
-        margin-bottom: 20px;
         border: white solid 5px;
     }
     #auberge_le_panier p{
@@ -962,7 +961,6 @@ footer h2{
         background-size: cover;
         width: 100%;
         height: 180px;
-        margin-bottom: 20px;
         border: white solid 5px;
     }
     #hotel_chez_amina p{
@@ -1212,12 +1210,12 @@ footer h2{
     #photos_hebergement a{
         width: 100%;
         margin: auto;
+        margin-bottom: 20px;
     }
     #auberge_la_cannebiere{
         background-size: cover;
         width: 100%;
         height: 180px;
-        margin-bottom: 20px;
         border: white solid 5px;
     }
     #auberge_la_cannebiere p{
@@ -1231,7 +1229,6 @@ footer h2{
         background-position-y: -60px;
         width: 100%;
         height: 180px;
-        margin-bottom: 20px;
         border: white solid 5px;
     }
     #hotel_du_port p{
@@ -1245,7 +1242,6 @@ footer h2{
         background-position-y: -80px;
         width: 100%;
         height: 180px;
-        margin-bottom: 20px;
         border: white solid 5px;
     }
     #hotel_les_mouettes p{
@@ -1259,7 +1255,6 @@ footer h2{
         background-position-y: -130px;
         width: 100%;
         height: 180px;
-        margin-bottom: 20px;
         border: white solid 5px;
     }
     #hotel_de_la_mer p{
@@ -1273,7 +1268,6 @@ footer h2{
         background-position-y: -60px;
         width: 100%;
         height: 180px;
-        margin-bottom: 20px;
         border: white solid 5px;
     }
     #auberge_le_panier p{
@@ -1287,7 +1281,6 @@ footer h2{
         background-position-y: -210px;
         width: 100%;
         height: 180px;
-        margin-bottom: 20px;
         border: white solid 5px;
     }
     #hotel_chez_amina p{
