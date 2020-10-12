@@ -845,7 +845,7 @@ aside{
     width: 100%;
     height: 180px;
     border: white solid 5px;
-    background-position: bottom;
+    background-position-y: -55px;
 }
 #hotel_du_port p{
     width: 96%;
@@ -857,7 +857,7 @@ aside{
     width: 100%;
     height: 180px;
     border: white solid 5px;
-    background-position: bottom;
+    background-position-y: -65px;
 }
 #hotel_les_mouettes p{
     width: 96%;
@@ -892,7 +892,7 @@ aside{
     width: 100%;
     height: 180px;
     border: white solid 5px;
-    background-position: center;
+    background-position-y: -200px;
 }
 #hotel_chez_amina p{
     width: 96%;
